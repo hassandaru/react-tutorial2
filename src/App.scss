@@ -1,0 +1,69 @@
+h1 {
+    color: red;
+    margin: 0px;
+  }
+
+body {
+  margin: 0;
+  font-family: Roboto;
+  background-color: lightgray;
+
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  padding: 30px 25px;
+  border-radius: 10px;
+  height: 90px;
+}
+
+.main {
+  padding: 57px 27px;
+}
+// .nav > h3, .nav > h4 {
+//   margin: 0;
+// }
+
+
+
+// .nav > h3 {
+//   margin-right: auto;
+//   color: #61DAFB;
+//   font-weight: 700;
+
+// }
+
+.nav-logo_text, .nav-title {
+  margin: 0;
+}
+
+.nav-logo_text {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+
+}
+
+.nav-title {
+  padding-left: 10px;
+}
+
+.heading {
+  font-weight: 600;
+}
+
+  /* make the customizations */
+$theme-colors: (
+  'info': tomato,
+  'danger': teal
+);
+
+.nav-logo {
+  height: 40px;
+  padding-left: 5px;
+}
+
+  /* import bootstrap to set changes */
+@import '~bootstrap/scss/bootstrap';
