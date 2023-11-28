@@ -21,6 +21,12 @@ body {
 
 .main {
   padding: 57px 27px;
+ 
+  background-image: url(./images/react-icon-lg.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 75%;
+  
 }
 // .nav > h3, .nav > h4 {
 //   margin: 0;
@@ -52,6 +58,30 @@ body {
 
 .heading {
   font-weight: 600;
+  letter-spacing: -0.05em;
+  font-family: Roboto;
+  font-size: normal;
+  font-weight: bold;
+
+
+}
+
+.main--facts {
+  padding-top: 10px;
+  
+}
+
+.main--facts > li {
+  font-family: Roboto;
+  font-size: normal;
+  font-weight: bold;
+}
+
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+
+ 
 }
 
   /* make the customizations */
